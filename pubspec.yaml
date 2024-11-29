@@ -28,7 +28,7 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 
-# TODO 1 - import all of teh dependencies
+# TODO 1 - import all of the dependencies
 dependencies:
   flutter:
     sdk: flutter
@@ -37,6 +37,14 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  #library untuk proses scanning mengunakan camera
+  mobile_scanner: ^6.0.2
+  #library untuk mengatur app permission
+  permission_handler: ^11.3.1
+  #library untuk melakukan generate dari data mentah ke QR Code
+  pretty_qr_code: ^3.3.0
+  share_plus: ^10.1.2
+  screenshot: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -61,8 +69,8 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
