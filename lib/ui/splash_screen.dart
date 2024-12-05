@@ -37,16 +37,6 @@ class _SplashScreenState extends State<SplashScreen> {
               width: 200, // ukuran gambar
               height: 200,
             ),
-            const SizedBox(height: 20),
-            // Teks Splash
-            const Text(
-              'QRODE',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 50,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
           ],
         ),
       ),
